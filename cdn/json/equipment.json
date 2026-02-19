@@ -140765,11 +140765,11 @@
     "version": "Charged",
     "slot": "weapon",
     "image": "Tonalztics of ralos.png",
-    "speed": 7,
+    "speed": 4,
     "category": "Thrown",
     "bonuses": {
       "str": 0,
-      "ranged_str": 55,
+      "ranged_str": 35,
       "magic_str": 0,
       "prayer": 2
     },
