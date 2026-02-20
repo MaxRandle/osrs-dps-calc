@@ -137370,6 +137370,36 @@
     "isTwoHanded": true
   },
   {
+    "name": "Sunfire dragon bolts",
+    "id": 55000,
+    "version": "",
+    "slot": "ammo",
+    "image": "Sunfire dragon bolts.png",
+    "speed": 0,
+    "category": "",
+    "bonuses": {
+      "str": 0,
+      "ranged_str": 122,
+      "magic_str": 0,
+      "prayer": 0
+    },
+    "offensive": {
+      "stab": 0,
+      "slash": 0,
+      "crush": 0,
+      "magic": 0,
+      "ranged": 0
+    },
+    "defensive": {
+      "stab": 0,
+      "slash": 0,
+      "crush": 0,
+      "magic": 0,
+      "ranged": 0
+    },
+    "isTwoHanded": false
+  },
+  {
     "name": "Sunfire fanatic chausses",
     "id": 28939,
     "version": "",
@@ -140765,11 +140795,11 @@
     "version": "Charged",
     "slot": "weapon",
     "image": "Tonalztics of ralos.png",
-    "speed": 7,
+    "speed": 4,
     "category": "Thrown",
     "bonuses": {
       "str": 0,
-      "ranged_str": 55,
+      "ranged_str": 36,
       "magic_str": 0,
       "prayer": 2
     },
@@ -140795,11 +140825,11 @@
     "version": "Uncharged",
     "slot": "weapon",
     "image": "Tonalztics of ralos (uncharged).png",
-    "speed": 7,
+    "speed": 4,
     "category": "Thrown",
     "bonuses": {
       "str": 0,
-      "ranged_str": 55,
+      "ranged_str": 36,
       "magic_str": 0,
       "prayer": 2
     },

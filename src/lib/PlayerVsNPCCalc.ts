@@ -72,6 +72,7 @@ import {
   opalBolts,
   pearlBolts,
   rubyBolts,
+  sunfireBolts,
 } from '@/lib/dists/bolts';
 import { burningClawDoT, burningClawSpec, dClawDist } from '@/lib/dists/claws';
 
@@ -1613,6 +1614,8 @@ export default class PlayerVsNPCCalc extends BaseCalc {
         dist = dist.transform(dragonstoneBolts(boltContext));
       } else if (this.wearing(['Onyx bolts (e)', 'Onyx dragon bolts (e)']) && !mattrs.includes(MonsterAttribute.UNDEAD)) {
         dist = dist.transform(onyxBolts(boltContext));
+      } else if (this.wearing(['Sunfire bolts', 'Sunfire dragon bolts'])) {
+        dist = dist.transform(sunfireBolts(boltContext));
       }
     }
 
