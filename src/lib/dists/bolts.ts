@@ -131,3 +131,12 @@ export const rubyBolts: BoltTransformer = (ctx) => {
     ]);
   };
 };
+
+export const sunfireBolts: BoltTransformer = (ctx) => {
+  const { zcb } = ctx;
+
+  const chance = 0.06 * kandarinFactor(ctx);
+  const burnDmg = zcb ? 99 : 90;
+
+  return bonusDamageTransform(ctx, chance, burnDmg, true);
+};
